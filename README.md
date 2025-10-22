@@ -112,7 +112,6 @@ Este notebook es ideal para:
 
 - **Modelo:** [gplsi/Aitana-2B-S en HuggingFace](https://huggingface.co/gplsi/Aitana-2B-S)
 - **Arquitectura base:** LLaMA 2 (Meta AI)
-
 ---
 
 ## 📝 Licencia
@@ -120,9 +119,3 @@ Este notebook es ideal para:
 Este notebook es material educativo. Respeta las licencias del modelo Aitana-2B-S y las bibliotecas utilizadas.
 
 ---
-
-## 🎉 Conclusión
-
-Has completado un viaje desde **texto → tokens → embeddings → 24 capas transformer → logits → predicción**. ¡Ahora entiendes cada multiplicación matricial que ocurre en un LLM moderno!
-
-**Siguiente paso:** Implementa tu propio transformer desde cero con estos conocimientos. 🚀
