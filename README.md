@@ -5,7 +5,7 @@ Transformations level micro to the tokens throughout a transformer
 
 ## 📋 Descripción General
 
-Este notebook realiza un **análisis exhaustivo y detallado** de la arquitectura interna del modelo de lenguaje **Aitana-2B-S** (modelo de 2 mil millones de parámetros desarrollado por GPLSI). El objetivo es **visualizar y comprender cada transformación matricial** que sufre un texto desde que entra como tokens hasta que se genera la predicción del siguiente token.
+Este notebook realiza un **análisis exhaustivo y detallado** de la arquitectura interna del modelo de lenguaje **Aitana-2B-S** (modelo de 2 mil millones de parámetros desarrollado por GPLSI). El objetivo es **visualizar y comprender cada transformación matricial** que sufre un texto desde que entra como tokens hasta que se genera la predicción del siguiente token. Así podrás ver cómo los tokens se van transformando en el nivel micro, número a número. 
 
 ### ¿Qué hace este notebook?
 
@@ -55,7 +55,7 @@ El notebook ha sido creado en [Google Colab](https://colab.research.google.com/)
 
 **Cambiar texto de entrada:**
 ```python
-text = "Tu propia frase en valenciano o castellano"
+text = "La teua frase en valencià ací"
 ```
 
 **Cambiar parámetros de generación:**
